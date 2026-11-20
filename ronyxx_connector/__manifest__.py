@@ -2,7 +2,7 @@
 {
     "name": "Ronyxx Connector",
     "summary": "Read-only access for Ronyxx in one click: ask your Odoo in plain words on WhatsApp, ChatGPT and Claude",
-    "version": "17.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Productivity",
     "author": "Ronyxx",
     "website": "https://ronyxx.com",
