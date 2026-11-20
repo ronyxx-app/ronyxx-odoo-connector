@@ -1,0 +1,37 @@
+<section style="max-width:880px;margin:0 auto;padding:24px 16px;font-family:Arial,Helvetica,sans-serif;color:#1d1d1f;line-height:1.55">
+  <h2 style="font-size:30px;margin:0 0 8px">Ask your Odoo anything</h2>
+  <p style="font-size:17px;margin:0 0 20px;color:#444">Ronyxx answers your team's questions with exact figures from your own Odoo, on WhatsApp, ChatGPT and Claude: what customers owe, sales last month, what's in stock, what to reorder. This free app gives Ronyxx read-only access in one click.</p>
+
+  <h3 style="font-size:20px;margin:28px 0 8px">What the app does</h3>
+  <p style="margin:0 0 6px">Under <b>Settings &gt; Connect Ronyxx</b>, one button:</p>
+  <ul style="margin:0 0 12px;padding-left:20px">
+    <li>creates a group called <b>Ronyxx read-only</b> that can read the records Ronyxx answers from, and can't write, create or delete anything. It covers the apps your database has; press it again after installing an app;</li>
+    <li>creates a user called <b>Ronyxx (read-only)</b> in that group, with no password, so nobody can sign in to Odoo with it;</li>
+    <li>makes an API key for that user and shows it once, with your Odoo address and database name, ready to paste into Ronyxx.</li>
+  </ul>
+  <p style="margin:0 0 16px">It replaces about 15 minutes of manual setup: a group, imported access rights and record rules, a user and a key.</p>
+  <img src="screenshot_connect.png" alt="The Connect Ronyxx window in Odoo" style="max-width:100%;border:1px solid #ddd;border-radius:6px;margin:0 0 16px"/>
+  <img src="screenshot_ready.png" alt="The address, database, login and key ready to copy" style="max-width:100%;border:1px solid #ddd;border-radius:6px;margin:0 0 8px"/>
+
+  <h3 style="font-size:20px;margin:28px 0 8px">Read-only, twice over</h3>
+  <p style="margin:0 0 12px">Ronyxx's own server refuses any request that would change your Odoo before it is sent. With this app, your Odoo refuses changes from the Ronyxx user too. Each person in your team gets only the answers their role in Ronyxx allows. Every figure is calculated by Ronyxx's tested code from your records; the AI only reads the question.</p>
+
+  <h3 style="font-size:20px;margin:28px 0 8px">What is shared, and when</h3>
+  <p style="margin:0 0 12px">This app sends nothing anywhere by itself. Ronyxx is an outside service: it reads your Odoo only after you paste the key into your Ronyxx account, and only to answer the questions your team asks. You can end its access at any time by deleting the key or uninstalling this app. Ronyxx's privacy policy and security details are on ronyxx.com.</p>
+
+  <h3 style="font-size:20px;margin:28px 0 8px">How to connect</h3>
+  <ol style="margin:0 0 12px;padding-left:20px">
+    <li>Install the app, then open <b>Settings &gt; Connect Ronyxx</b>.</li>
+    <li>Press <b>Create read-only access</b> and confirm your password.</li>
+    <li>Copy the address, database, login and key into the Odoo page of your Ronyxx account (sign up at ronyxx.com).</li>
+  </ol>
+
+  <h3 style="font-size:20px;margin:28px 0 8px">Good to know</h3>
+  <ul style="margin:0 0 12px;padding-left:20px">
+    <li>Works on Odoo 16, 17, 18 and 19, Community and Enterprise, on Odoo.sh and your own server. Odoo Online (odoo.com) doesn't allow outside apps; there, Ronyxx connects with an API key from an existing login.</li>
+    <li>On a paid Odoo plan, the Ronyxx user is an internal user, so it counts as one more Odoo user.</li>
+    <li>On Odoo 18 and later you choose how long the key lasts (90 days, a year, or no end date); Ronyxx emails you before it ends.</li>
+    <li>Uninstalling the app archives the Ronyxx user and deletes its keys, so Ronyxx's access ends at once.</li>
+  </ul>
+  <p style="margin:20px 0 0">Questions: <a href="mailto:support@ronyxx.com">support@ronyxx.com</a></p>
+</section>
